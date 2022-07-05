@@ -1,0 +1,50 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "scripts": {
+    "local:pdfbear": "./node_modules/.bin/cross-env VITE_APP_NAME=PDFBEAR VITE_ENV=development NODE_ENV=development ./node_modules/.bin/svelte-kit dev",
+    "build:pdfbear": "./node_modules/.bin/cross-env VITE_APP_NAME=PDFBEAR  NODE_ENV=production ./node_modules/.bin/svelte-kit build",
+    "build:dev:pdfbear": "./node_modules/.bin/cross-env VITE_APP_NAME=PDFBEAR VITE_ENV=development NODE_ENV=development ./node_modules/.bin/svelte-kit build",
+    "start:pdfbear": "VITE_APP_NAME=PDFBEAR PROTOCOL_HEADER=x-forwarded-proto HOST_HEADER=x-forwarded-host PORT=3001 node build",
+    "start:dev:pdfbear": "./node_modules/.bin/cross-env VITE_APP_NAME=PDFBEAR VITE_ENV=development NODE_ENV=development PROTOCOL_HEADER=x-forwarded-proto HOST_HEADER=x-forwarded-host node build",
+    "local:gogopdf": "./node_modules/.bin/cross-env VITE_APP_NAME=gogopdf VITE_ENV=development NODE_ENV=development ./node_modules/.bin/svelte-kit dev",
+    "build:gogopdf": "./node_modules/.bin/cross-env VITE_APP_NAME=gogopdf  NODE_ENV=production ./node_modules/.bin/svelte-kit build",
+    "build:dev:gogopdf": "./node_modules/.bin/cross-env VITE_APP_NAME=gogopdf VITE_ENV=development NODE_ENV=development ./node_modules/.bin/svelte-kit build",
+    "start:gogopdf": "VITE_APP_NAME=gogopdf PROTOCOL_HEADER=x-forwarded-proto HOST_HEADER=x-forwarded-host PORT=3001 node build",
+    "start:dev:gogopdf": "./node_modules/.bin/cross-env VITE_APP_NAME=gogopdf VITE_ENV=development NODE_ENV=development PROTOCOL_HEADER=x-forwarded-proto HOST_HEADER=x-forwarded-host node build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^1.0.0-next.53",
+    "@sveltejs/adapter-node": "^1.0.0-next.78",
+    "@sveltejs/adapter-static": "^1.0.0-next.34",
+    "@sveltejs/kit": "1.0.0-next.357",
+    "svelte": "3.48.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "eslint-plugin-tsdoc": "^0.2.16",
+    "prettier": "^2.7.1",
+    "prettier-plugin-svelte": "^2.7.0",
+    "xo": "^0.50.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "schema-dts": "^1.1.0",
+    "@unocss/reset": "^0.43.0",
+    "unocss": "^0.43.0",
+    "unocss-preset-scalpel": "^1.2.2",
+    "@unocss/transformer-directives": "^0.42.0"
+  }
+}
