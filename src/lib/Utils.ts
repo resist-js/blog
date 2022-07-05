@@ -22,7 +22,7 @@ export const THEME_COLOR = APP_NAME === "PDFBEAR" ? "#4d73c0" : "#20ca4c"
  * @exports
  * @type {!string}
  */
-export const BASE_URL = "/"
+export const BASE_URL = "https://blog-k2e0.onrender.com"
 /*export const BASE_URL =
   import.meta.env.VITE_ENV === "development"
     ? `https://dev.${APP_NAME.toLowerCase()}.com`
