@@ -80,7 +80,7 @@
     first={tool_name ?? "Blog"}
     firstUrl={tool ? `${BASE_URL}/${tool}` : undefined}
     second={types[type]}
-    secondUrl={type ? `/blog/${type}` : null}
+    secondUrl={type ? `/${type}` : null}
     third={title}
   />
 

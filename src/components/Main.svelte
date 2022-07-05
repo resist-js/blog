@@ -103,7 +103,7 @@
           />
         {/each}
       </div>
-      <a a-0 ft-l href={BASE_URL + "/blog/news"}>Show more</a>
+      <a a-0 ft-l href={BASE_URL + "/news"}>Show more</a>
     </div>
 
     <div bix-2 mt-2 style="content-visibility:auto">
@@ -123,7 +123,7 @@
           />
         {/each}
       </div>
-      <a a-0 ft-l href={BASE_URL + "/blog/how-to"}>Show more</a>
+      <a a-0 ft-l href={BASE_URL + "/how-to"}>Show more</a>
     </div>
 
     <div bix-2 mt-2 mb-3 style="content-visibility:auto">
@@ -143,7 +143,7 @@
           />
         {/each}
       </div>
-      <a a-0 ft-l href={BASE_URL + "/blog/all"}>Show more</a>
+      <a a-0 ft-l href={BASE_URL + "/all"}>Show more</a>
     </div>
 
     <div bi-2 style="content-visibility:auto"><p bi-3 whitespace-initial>{footer}</p></div>

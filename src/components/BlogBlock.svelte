@@ -38,6 +38,6 @@
     <ArticlePlaceholderIcon />
   </div>
 
-  <a href={BASE_URL + "/blog/" + url} a-0><h3 b-1 whitespace-initial>{title}</h3></a>
-  <a href={BASE_URL + "/blog/" + url} a-0><div b-2 whitespace-initial>{description}</div></a>
+  <a href={BASE_URL + "/" + url} a-0><h3 b-1 whitespace-initial>{title}</h3></a>
+  <a href={BASE_URL + "/" + url} a-0><div b-2 whitespace-initial>{description}</div></a>
 </article>
