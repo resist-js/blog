@@ -40,7 +40,7 @@ export default defineConfig({
     "bix-2": "flex items-center justify-center flex-direction-column min-h-160 p-5 w-fill bg-dark-500",
     "bi-1": "grid mt-20 p-5 w-fill column-gap-80 row-gap-20",
     "bix-1": "grid mt-20 p-5 w-fill column-gap-80 row-gap-20 min-h-410",
-    "bi-2": "flex items-center justify-center min-h-160 h-160 w-fill @dark:bg-dark-500 @light:bg-neutral-500",
+    "bi-2": `flex items-center justify-center min-h-160 h-160 w-fill @dark:bg-dark-500 @light:bg-${theme}-100`,
     "bi-3": "max-w-520px line-clamp-3",
     "ft-c": "border-t-solid border-t-color-dark-500 flex items-center justify-start",
     "ft-n":
