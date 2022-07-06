@@ -16,8 +16,8 @@
 
   <div p-1>
     {#if APP_NAME === "PDFBEAR"}
-      <a a-0 p-0 href="{BASE_URL}/pricing">Pricing</a>
-      <a a-0 p-0 p-ft href="{BASE_URL}/pro">FREE TRIAL</a>
+      <a a-0 p-0 p-pr href="{BASE_URL}/pricing">Pricing</a>
+      <a a-0 p-0 p-ft color-white href="{BASE_URL}/pro">FREE TRIAL</a>
     {/if}
   </div>
 </header>

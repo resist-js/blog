@@ -8,7 +8,7 @@
 </script>
 
 <div flex-c>
-  <div fw-500>{section}</div>
+  <div ft-t>{section}</div>
   <div flex-c>
     <slot />
   </div></div

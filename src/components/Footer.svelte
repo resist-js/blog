@@ -10,8 +10,10 @@
 
 <footer f-1 style="content-visibility:auto">
   <div f-2>
-    <Logo height={48} />
-    <div f-3>
+    <div f-5>
+      <Logo height={48} />
+    </div>
+    <div f-3 style="max-width: calc(100% - 350px)">
       <FooterLink title="Terms & Conditions" url="terms" />
       <FooterLink title="Privacy Policy" url="privacy" />
       <FooterLink title="Help" url="faq" />
